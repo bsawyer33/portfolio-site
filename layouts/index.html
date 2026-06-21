@@ -1,0 +1,66 @@
+{{ define "main" }}
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body, html { background-color: #ffffff !important; color: #111111 !important; font-family: sans-serif; }
+  
+  .grid-wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem 2rem;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 100%;
+  }
+  .grid-item {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .hover-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35) !important; /* Changed precisely to 35% Opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .grid-item:hover .hover-overlay {
+    opacity: 1 !important;
+  }
+  
+  .project-title { 
+    color: #ffffff !important; 
+    font-size: 1.4rem; 
+    font-weight: 400; 
+    letter-spacing: 0.15em; 
+    text-transform: uppercase; 
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) { .grid-container { grid-template-columns: 1fr; } }
+</style>
+
+<div style="width: 100%; text-align: center; padding: 3rem 0 2rem 0; font-size: 0.9rem; letter-spacing: 0.05em; color: #666666; text-transform: uppercase;">
+  All work produced and edited by Braeden Sawyer
+</div>
+
+<div class="grid-wrapper">
+  <div class="grid-container">
+    <a href="/work/bardo/" class="grid-item" style="background-image: url('/work/bardo/feature.png');"><div class="hover-overlay"><h3 class="project-title">Showreel</h3></div></a>
+    <a href="/work/club-sandwich/" class="grid-item" style="background-image: url('/work/club-sandwich/feature.png');"><div class="hover-overlay"><h3 class="project-title">Club Sandwich</h3></div></a>
+    <a href="/work/austin-rattler/" class="grid-item" style="background-image: url('/work/austin-rattler/feature.png');"><div class="hover-overlay"><h3 class="project-title">Austin Rattler 2024</h3></div></a>
+    <a href="/work/tim-swift/" class="grid-item" style="background-image: url('/work/tim-swift/feature.png');"><div class="hover-overlay"><h3 class="project-title" style="font-size: 1.15rem; letter-spacing: 0.1em; line-height: 1.4;">Mercedes-Benz EQ Presents:<br>Tim Swift</h3></div></a>
+  </div>
+</div>
+{{ end }}

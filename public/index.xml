@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blowfish</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Austin Rattler 2024</title>
+      <link>http://localhost:1313/work/austin-rattler/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/work/austin-rattler/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/work/austin-rattler/feature.png" />
+    </item>
+    
+    <item>
+      <title>Bardo Showreel</title>
+      <link>http://localhost:1313/work/bardo/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/work/bardo/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/work/bardo/feature.png" />
+    </item>
+    
+    <item>
+      <title>Club Sandwich</title>
+      <link>http://localhost:1313/work/club-sandwich/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/work/club-sandwich/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/work/club-sandwich/feature.png" />
+    </item>
+    
+    <item>
+      <title>Mercedes-Benz EQ Presents: Tim Swift</title>
+      <link>http://localhost:1313/work/tim-swift/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/work/tim-swift/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/work/tim-swift/feature.png" />
+    </item>
+    
+  </channel>
+</rss>
